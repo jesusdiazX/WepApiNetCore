@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APiServer", "APiServer\APiServer.csproj", "{C7B9F019-626A-4CEA-AC60-FE291679E651}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7B9F019-626A-4CEA-AC60-FE291679E651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7B9F019-626A-4CEA-AC60-FE291679E651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7B9F019-626A-4CEA-AC60-FE291679E651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7B9F019-626A-4CEA-AC60-FE291679E651}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {633F4F3E-1A72-4CF7-BBE3-A331B12E9B2C}
+	EndGlobalSection
+EndGlobal

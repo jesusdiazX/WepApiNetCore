@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8X6US5aMAvBAXBjYLSVHkX9KM5r9xbMPgwqJp/91cFs=",
+  "Source": "ApiServiceTienda",
+  "BasePath": "_content/ApiServiceTienda",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
