@@ -169,7 +169,7 @@ namespace APiServer.Dao
             List<ClienteArticulo> lis = new List<ClienteArticulo>();
 
             // string conecxion = "Server=tcp:serverdemoazuresql.database.windows.net,1433;Initial Catalog=DemoAzure;Persist Security Info=False;User ID=sqlserver01;Password=Demo$SQL;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
-            string sql = "select ArtCienteId,Nombre,Apellidos,Codigo,Descripcion from [dbo].[ArticulosClientes] ac\r\ninner join Clientes c on c.ClienteId=ac.ClienteId\r\ninner join Articulos a on a.ArticuloId=ac.ArticuloId";
+            string sql = "select ArtClienteId,Nombre,Apellidos,Codigo,Descripcion from [dbo].[ArticulosClientes] ac\r\ninner join Clientes c on c.ClienteId=ac.ClienteId\r\ninner join Articulos a on a.ArticuloId=ac.ArticuloId";
             /// conecxion ="Data Source=HYBOOK-PLUS\\SQLEXPRESS;Initial Catalog=Tienda;Integrated Security=True";
             // conecxion = _configuration.GetConnectionString("MyDbConnection");
             DataTable dt = new DataTable();
@@ -182,7 +182,7 @@ namespace APiServer.Dao
             {
                 lis.Add(new ClienteArticulo
                 {
-                    ArtCienteId = Convert.ToInt32(dr["ArtCienteId"].ToString()),
+                    ArtClienteId = Convert.ToInt32(dr["ArtClienteId"].ToString()),
                     Nombre = dr["Nombre"].ToString(),
                     Apellidos = dr["Apellidos"].ToString(),
                     Descripcion= dr["Descripcion"].ToString()

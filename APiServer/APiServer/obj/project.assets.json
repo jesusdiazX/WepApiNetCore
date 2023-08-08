@@ -4138,11 +4138,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jesusdiaz\\source\\repos\\APiServer\\APiServer\\APiServer.csproj",
+      "projectUniqueName": "C:\\Users\\Jesusdiaz\\Documents\\GitHub\\WepApiNetCore\\APiServer\\APiServer\\APiServer.csproj",
       "projectName": "APiServer",
-      "projectPath": "C:\\Users\\Jesusdiaz\\source\\repos\\APiServer\\APiServer\\APiServer.csproj",
+      "projectPath": "C:\\Users\\Jesusdiaz\\Documents\\GitHub\\WepApiNetCore\\APiServer\\APiServer\\APiServer.csproj",
       "packagesPath": "C:\\Users\\Jesusdiaz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jesusdiaz\\source\\repos\\APiServer\\APiServer\\obj\\",
+      "outputPath": "C:\\Users\\Jesusdiaz\\Documents\\GitHub\\WepApiNetCore\\APiServer\\APiServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xzbm5D15MUsXOlarfZvcXAHoAa0ZeGiN5NG7eMtgonuo8516qOTs6w9QxPS0/OtEBN3jEKK1lCP6iKFjXESsvg==",
+  "dgSpecHash": "/KvLqU5aB/F5GErBhlgYoOBMDqiHml8DWM1lM79lnp76f52Oh5FzXi10RzTMo4dEiRbHIwVakeV4zUx4BaCnQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jesusdiaz\\source\\repos\\APiServer\\APiServer\\APiServer.csproj",
+  "projectFilePath": "C:\\Users\\Jesusdiaz\\Documents\\GitHub\\WepApiNetCore\\APiServer\\APiServer\\APiServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jesusdiaz\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Jesusdiaz\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -11,7 +11,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IProducto, Producto>();
 builder.Services.AddScoped<ICliente, ClientesL>();
 builder.Services.AddScoped<IArticulos, ArticulosL>();
-builder.Services.AddScoped<ITienda,TiendaL>();
+builder.Services.AddScoped<ITienda, TiendaL>();
+builder.Services.AddScoped<IVentasL,VentasL>();
 builder.Services.AddCors(options
     => {
         options.AddPolicy("nuevo", app => {

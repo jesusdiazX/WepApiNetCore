@@ -64,5 +64,15 @@ namespace APiServer.Controllers
 
             return students;
         }
+
+
+        [HttpPost]
+        [Route("Relacionventas")]
+        public Models.Tienda Relacionventas(int Tiendaid)
+        {
+            var students = _producto.DeleteArticulo(Tiendaid);
+
+            return students;
+        }
     }
 }
